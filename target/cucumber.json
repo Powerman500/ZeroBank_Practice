@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2252000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the login page",
+            "match": {
+              "location": "test.StepDefs.Login_StepDefinitions.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 679000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login as a user",
+            "match": {
+              "location": "test.StepDefs.Login_StepDefinitions.i_login_as_a_user()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-05T21:10:00.379Z",
+        "line": 8,
+        "name": "Show transaction dropdown verification",
+        "description": "",
+        "id": "as-a-use--i-should-be-able-to-check-different-account-functions.;show-transaction-dropdown-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 1629000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.StepDefs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1370000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the transaction dropdown",
+            "match": {
+              "location": "test.StepDefs.ShowTransactionDropdown_StepDefinitions.i_click_the_transaction_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "All the select options should be show",
+            "match": {
+              "location": "test.StepDefs.ShowTransactionDropdown_StepDefinitions.all_the_select_options_should_be_show(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Checking"
+                ]
+              },
+              {
+                "cells": [
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Loan"
+                ]
+              },
+              {
+                "cells": [
+                  "Credit Card"
+                ]
+              },
+              {
+                "cells": [
+                  "Brokerage"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@transaction"
+          }
+        ]
+      }
+    ],
+    "name": "As a use, I should be able to check different account functions.",
+    "description": "",
+    "id": "as-a-use--i-should-be-able-to-check-different-account-functions.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ShowTransactionDropdown.feature",
+    "tags": []
+  }
+]
