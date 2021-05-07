@@ -20,12 +20,9 @@ import java.util.List;
 
 public class ShowTransactionDropdown_StepDefinitions {
 
-    LoginPage loginPage = new LoginPage();
     BasePage basePage = new BasePage();
     AccountActivityPage accountActivityPage = new AccountActivityPage();
     WebDriverWait wait = new WebDriverWait(Driver.getDriver(),10);
-
-
 
     @When("I click the transaction dropdown")
     public void i_click_the_transaction_dropdown() {

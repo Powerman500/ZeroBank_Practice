@@ -29,4 +29,7 @@ public class FeedbackPage {
 
     @FindBy(xpath= "//input[@type='reset']")
     public WebElement clear;
+
+    @FindBy(id ="feedback-title")
+    public WebElement title;
 }

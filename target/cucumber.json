@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
+        "line": 6,
         "name": "User already in login page",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2252000000,
+              "duration": 2221000000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 7,
             "name": "I am on the login page",
             "match": {
               "location": "test.StepDefs.Login_StepDefinitions.i_am_on_the_login_page()"
@@ -23,10 +23,10 @@
           },
           {
             "result": {
-              "duration": 679000000,
+              "duration": 636000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 8,
             "name": "I login as a user",
             "match": {
               "location": "test.StepDefs.Login_StepDefinitions.i_login_as_a_user()"
@@ -36,15 +36,15 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-05T21:10:00.379Z",
-        "line": 8,
-        "name": "Show transaction dropdown verification",
+        "start_timestamp": "2021-05-07T02:46:35.330Z",
+        "line": 11,
+        "name": "Display the reply when submit feedback successfully",
         "description": "",
-        "id": "as-a-use--i-should-be-able-to-check-different-account-functions.;show-transaction-dropdown-verification",
+        "id": "as-a-user---i-should-be-able-to-write-and-sent-the-feedback-to-the-system.;display-the-reply-when-submit-feedback-successfully",
         "after": [
           {
             "result": {
-              "duration": 1629000000,
+              "duration": 1624000000,
               "status": "passed"
             },
             "match": {
@@ -57,73 +57,41 @@
         "steps": [
           {
             "result": {
-              "duration": 1370000000,
+              "duration": 6884000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I click the transaction dropdown",
+            "line": 12,
+            "name": "user write the feedback info correctly and submit it",
             "match": {
-              "location": "test.StepDefs.ShowTransactionDropdown_StepDefinitions.i_click_the_transaction_dropdown()"
+              "location": "test.StepDefs.Feedback_StepDefinitions.user_write_the_feedback_info_correctly_and_submit_it()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 140000000,
+              "duration": 53000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "All the select options should be show",
+            "line": 13,
+            "name": "success submit reply will be display",
             "match": {
-              "location": "test.StepDefs.ShowTransactionDropdown_StepDefinitions.all_the_select_options_should_be_show(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "test.StepDefs.Feedback_StepDefinitions.success_submit_reply_will_be_display()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "Savings"
-                ]
-              },
-              {
-                "cells": [
-                  "Checking"
-                ]
-              },
-              {
-                "cells": [
-                  "Savings"
-                ]
-              },
-              {
-                "cells": [
-                  "Loan"
-                ]
-              },
-              {
-                "cells": [
-                  "Credit Card"
-                ]
-              },
-              {
-                "cells": [
-                  "Brokerage"
-                ]
-              }
-            ],
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@transaction"
+            "name": "@feedback"
           }
         ]
       }
     ],
-    "name": "As a use, I should be able to check different account functions.",
-    "description": "",
-    "id": "as-a-use--i-should-be-able-to-check-different-account-functions.",
+    "name": "As a user , I should be able to write and sent the feedback to the system.",
+    "description": "// Thank you for your comments, {your name}.\n// They will be reviewed by our Customer Service staff and given the full attention that they deserve.",
+    "id": "as-a-user---i-should-be-able-to-write-and-sent-the-feedback-to-the-system.",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/ShowTransactionDropdown.feature",
+    "uri": "file:src/test/resources/features/Feedback.feature",
     "tags": []
   }
 ]
