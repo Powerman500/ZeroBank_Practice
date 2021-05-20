@@ -1,7 +1,7 @@
 # ZeroBank_Practice
 BDD Cucumber test framework to test a demo online backing application
 
-Tools used:
+# Tools used:
 Dependency Management: Maven
 
 Browser Automation: Selenium
